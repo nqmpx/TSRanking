@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập Điểm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Xếp hạng điểm thi THPT QG (Trường THPT Tây Sơn)</h1>
+    <form id="scoreForm">
+        <div class="form-group">
+            <label for="toan">Toán:</label>
+            <input type="number" id="toan" name="toan" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="van">Văn:</label>
+            <input type="number" id="van" name="van" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="anh">Anh:</label>
+            <input type="number" id="anh" name="anh" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="su">Sử:</label>
+            <input type="number" id="su" name="su" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="dia">Địa:</label>
+            <input type="number" id="dia" name="dia" step="0.01" required>
+        </div>
+        <div class="form-group">
+            <label for="gdcd">GDCD:</label>
+            <input type="number" id="gdcd" name="gdcd" step="0.01" required>
+        </div>
+        <div class="button-group">
+            <button type="submit">Xác Nhận</button>
+        </div>
+    </form>
+    <div id="result"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
